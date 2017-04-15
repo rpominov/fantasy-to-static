@@ -1,0 +1,33 @@
+{
+  "name": "fantasy-to-static",
+  "version": "1.0.0",
+  "description": "A helper that generates a static-land module from a fantasy-land type",
+  "scripts": {
+    "lobot": "lobot",
+    "lint": "eslint .",
+    "test": "eslint . && lobot test"
+  },
+  "main": "lib/index.js",
+  "jsnext:main": "lib-es/index.js",
+  "files": [
+    "lib",
+    "lib-es",
+    "umd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpominov/fantasy-to-static.git"
+  },
+  "author": "Roman Pominov <rpominov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpominov/fantasy-to-static/issues"
+  },
+  "homepage": "https://github.com/rpominov/fantasy-to-static#readme",
+  "devDependencies": {
+    "lobot": "0.1.23"
+  },
+  "dependencies": {
+    "fantasy-land": "^2.1.0"
+  }
+}
